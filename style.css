@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: gold;
+}
+#body {
+    display: flex;
+    justify-content: center;;
+}
+.colorAdjust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gold;
+    flex-direction: column;
+}
+.sideButton {
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #3e6bf0;
+    transition: height .4s;
+    color: white;
+    background-color: #3e6bf0;
+    cursor: pointer;
+    width: auto;
+    margin: 10px;
+}
+#black {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+#black:hover {
+    height: 53px;
+}
+#eraser {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+#eraser:hover {
+    height: 53px;
+}
+#rainbow:hover {
+    height: 53px;
+}
+#container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 20px;
+}
+#container div {
+    outline: 1px solid black;
+}
+.button {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+#new {
+    border-radius: 20px;
+    border: 2px solid gold;
+    background-color: #3e6bf0;
+    height: 30px;
+    width: 100px;
+    transition: width .7s;
+    font-size: 15px;
+    color: white;
+}
+#new:hover {
+    cursor: pointer;
+    width: 120px;
+}
